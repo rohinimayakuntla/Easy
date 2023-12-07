@@ -27,6 +27,6 @@ def majorityElement(nums):
     if count2 > n // 3:
         result.append(candidate2)
     return result
-nums = list(map(int, input("Enter the integers separated by spaces: ").split()))
+nums = list(map(int, input("Enter the integers separated by spaces: ").split())) #do not add square brackets while giving the input just give numbers with spaces
 result = majorityElement(nums)
 print("Output:", result)
